@@ -8,28 +8,18 @@ namespace Access_modifiers
 {
     internal class BankAccount
     {
+        private const double sal = 250.000;
         private String accountNumber;
         private float salary;
-
-        // using accessors to get and
-        // set the value of accountNumber
         public String accNo
         {
-
             get { return accountNumber; }
-
-            set { accountNumber = value; }
+            set { accountNumber = "0102 XXXX XXXX 3213"; }
         }
-
-        // using accessors to get and
-        // set the value of salary
         public float accSalary
         {
-
             get { return salary; }
-
-            set { salary = value; }
+            set { salary = (float)sal; }
         }
-
     }
 }

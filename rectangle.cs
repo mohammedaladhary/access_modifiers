@@ -8,10 +8,10 @@ namespace Access_modifiers
 {
     internal class rectangle
     {
-            private double length;
-            private double width;
+            private double length { get; set; }
+            private double width { get; set; }
 
-            public rectangle(double length, double width)
+        public rectangle(double length, double width)
             {
                 this.length = length;
                 this.width = width;
